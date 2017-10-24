@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Simple Converter</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="home">Home</string>
+    <string name="temp">Temperature</string>
+    <string name="length">Length</string>
+    <string name="weight">Weight</string>
+    <string name="volume">Volume</string>
+    <string name="time">Time</string>
+    <string name="area">Area</string>
+    <string name="storage">Digital Storage</string>
+    <string name="number">Numbers System</string>
+
+    <string name="title_activity_number_system">Numbers System</string>
+    <string name="binary">Binary</string>
+    <string name="decimal">Decimal</string>
+    <string name="octal">Octal</string>
+    <string name="hexadecimal">Hexadecimal</string>
+    <string name="msg" >Out of bounds!</string>
+    <string name="a" translatable="false">A</string>
+    <string name="b" translatable="false">B</string>
+    <string name="c" translatable="false">C</string>
+    <string name="d" translatable="false">D</string>
+    <string name="e" translatable="false">E</string>
+    <string name="f" translatable="false">F</string>
+
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="result">Result</string>
+    <string name="hint">Enter a value</string>
+    <string name="error_message">ERROR</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="title_activity_digital_storage">Digital Storage</string>
+    <string name="bit">Bit</string>
+    <string name="Byte">Byte</string>
+    <string name="kilo">Kilobyte</string>
+    <string name="mega">Megabyte</string>
+    <string name="giga">Gigabyte</string>
+    <string name="tera">Terabyte</string>
+    <string name="peta">Petabyte</string>
+    <string name="exa">Exabyte</string>
+    <string name="zeta">Zetabyte</string>
+
+    <string name="title_activity_time">Time</string>
+    <string name="microsecond">Microsecond</string>
+    <string name="nano">Nanosecond</string>
+    <string name="milli">Millisecond</string>
+    <string name="second">Second</string>
+    <string name="minute">Minute</string>
+    <string name="hour">Hour</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="century">Century</string>
+
+    <string name="title_activity_temperature">Temperature</string>
+    <string name="celsius">Celsius</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="fahrenheit">Fahrenheit</string>
+
+    <string name="title_activity_length">Length</string>
+    <string name="nanometre">Nanometre</string>
+    <string name="micro">Micrometre</string>
+    <string name="millimetre">Millimetre</string>
+    <string name="centimetre">Centimetre</string>
+    <string name="metre">Metre</string>
+    <string name="kilometre">Kilometre</string>
+    <string name="mile">Mile</string>
+    <string name="nmile">Nautical Mile</string>
+    <string name="inch">Inch</string>
+    <string name="feet">Feet</string>
+    <string name="yard">Yard</string>
+    <string name="lyear">Light Year</string>
+
+    <string name="title_activity_area">Area</string>
+    <string name="sqcenti">Sq Centimetre</string>
+    <string name="sqmetre">Sq Metre</string>
+    <string name="sqkilo">Sq Kilometre</string>
+    <string name="sqinch">Sq Inch</string>
+    <string name="sqfoot">Sq Foot</string>
+    <string name="sqyard">Sq Yard</string>
+    <string name="sqmile">Sq Mile</string>
+    <string name="acre">Acre</string>
+
+    <string name="title_activity_weight">Weight</string>
+    <string name="gram">Gram</string>
+    <string name="kgarm">Kilogram</string>
+    <string name="pound">Pound</string>
+    <string name="ton">Ton</string>
+
+    <string name="title_activity_volume">Volume</string>
+    <string name="litre">Litre</string>
+    <string name="cubcm">Cubic Centimetre</string>
+    <string name="cubm">Cubic Metre</string>
+    <string name="cubinch">Cubic Inch</string>
+    <string name="cubfoot">Cubic Foot</string>
+    <string name="cubyard">Cubic Yard</string>
+
+    <string name="categories">Categories</string>
+
+    <!-- SharedPref -->
+    <string name="pref_appear_label">Appearance [Requires Restart]</string>
+    <string name="pref_appear_label_light">Light</string>
+    <string name="pref_appear_label_dark">Dark</string>
+    <string name="pref_appear_key" translatable="false">appear</string>
+    <string name="pref_appear_light" translatable="false">light</string>
+    <string name="pref_appear_dark" translatable="false">dark</string>
+    <string-array name="pref_appear_options">
+        <item>@string/pref_appear_label_light</item>
+        <item>@string/pref_appear_label_dark</item>
+    </string-array>
+    <string-array name="pref_appear_values">
+        <item>@string/pref_appear_light</item>
+        <item>@string/pref_appear_dark</item>
+    </string-array>
+
+
+    <string name="pref_layout_label">Layout</string>
+    <string name="pref_layout_label_grid">Grid 3</string>
+    <string name="pref_layout_label_grid2">Grid 2</string>
+    <string name="pref_layout_label_linear">Linear</string>
+    <string name="pref_layout_key" translatable="false">layout</string>
+    <string name="pref_layout_grid" translatable="false">grid</string>
+    <string name="pref_layout_grid2" translatable="false">grid2</string>
+    <string name="pref_layout_linear" translatable="false">linear</string>
+    <string-array name="pref_layout_options">
+        <item>@string/pref_layout_label_grid</item>
+        <item>@string/pref_layout_label_grid2</item>
+        <item>@string/pref_layout_label_linear</item>
+    </string-array>
+    <string-array name="pref_layout_values">
+        <item>@string/pref_layout_grid</item>
+        <item>@string/pref_layout_grid2</item>
+        <item>@string/pref_layout_linear</item>
+    </string-array>
+
+</resources>

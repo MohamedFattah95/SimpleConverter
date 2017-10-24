@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_time"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mohamed.simpleconverter.Fragments.TimeActivityFragment">
+
+    <android.support.v7.widget.CardView
+        style="@style/HeaderCardView">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tvFromVal"
+                    style="@style/UnitText"
+                    android:text="@string/nano" />
+
+                <TextView
+                    android:id="@+id/tvToRes"
+                    style="@style/UnitText"
+                    android:text="@string/microsecond" />
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/etValue"
+                    style="@style/ValueEditText" />
+
+                <EditText
+                    android:id="@+id/etResult"
+                    style="@style/ResultEditText" />
+            </TableRow>
+        </TableLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    style="@style/UnitsCardView"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginStart="8dp">
+
+                    <RadioGroup
+                        android:id="@+id/rgfrom"
+                        style="@style/UnitsRadioGroup">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/from" />
+
+                        <RadioButton
+                            android:id="@+id/rbNanoSec1"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="@string/nano" />
+
+                        <RadioButton
+                            android:id="@+id/rbMicroSec1"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/microsecond" />
+
+                        <RadioButton
+                            android:id="@+id/rbMilliSec1"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/milli" />
+
+                        <RadioButton
+                            android:id="@+id/rbSecond1"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/second" />
+
+                        <RadioButton
+                            android:id="@+id/rbMinute1"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/minute" />
+
+                        <RadioButton
+                            android:id="@+id/rbHour1"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hour" />
+
+                        <RadioButton
+                            android:id="@+id/rbDay1"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/day" />
+
+                        <RadioButton
+                            android:id="@+id/rbWeek1"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/week" />
+
+                        <RadioButton
+                            android:id="@+id/rbMonth1"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/month" />
+
+                        <RadioButton
+                            android:id="@+id/rbYear1"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/year" />
+
+                        <RadioButton
+                            android:id="@+id/rbCentury1"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/century" />
+                    </RadioGroup>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    style="@style/UnitsCardView"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="4dp">
+
+                    <RadioGroup
+                        android:id="@+id/rgTo"
+                        style="@style/UnitsRadioGroup">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/to" />
+
+                        <RadioButton
+                            android:id="@+id/rbNanoSec2"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/nano" />
+
+                        <RadioButton
+                            android:id="@+id/rbMicroSec2"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="@string/microsecond" />
+
+                        <RadioButton
+                            android:id="@+id/rbMilliSec2"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/milli" />
+
+                        <RadioButton
+                            android:id="@+id/rbSecond2"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/second" />
+
+                        <RadioButton
+                            android:id="@+id/rbMinute2"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/minute" />
+
+                        <RadioButton
+                            android:id="@+id/rbHour2"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hour" />
+
+                        <RadioButton
+                            android:id="@+id/rbDay2"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/day" />
+
+                        <RadioButton
+                            android:id="@+id/rbWeek2"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/week" />
+
+                        <RadioButton
+                            android:id="@+id/rbMonth2"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/month" />
+
+                        <RadioButton
+                            android:id="@+id/rbYear2"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/year" />
+
+                        <RadioButton
+                            android:id="@+id/rbCentury2"
+                            style="@style/UnitRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/century" />
+                    </RadioGroup>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

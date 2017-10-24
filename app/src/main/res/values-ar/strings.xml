@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">المحول البسيط</string>
+    <string name="action_settings">الإعدادات</string>
+
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="temp">الحرارة</string>
+    <string name="length">المسافة</string>
+    <string name="weight">الوزن</string>
+    <string name="volume">الحجم</string>
+    <string name="time">الوقت</string>
+    <string name="area">المساحة</string>
+    <string name="storage">التخزين الرقمي</string>
+    <string name="number">أنظمة الأرقام</string>
+
+    <string name="title_activity_number_system">أنظمة الأرقام</string>
+    <string name="binary">الثنائي</string>
+    <string name="decimal">العشري</string>
+    <string name="octal">الثماني</string>
+    <string name="hexadecimal">السداسي عشر</string>
+    <string name="msg" >خارج النطاق!</string>
+
+    <string name="from">من</string>
+    <string name="to">إلى</string>
+    <string name="result">الناتج</string>
+    <string name="hint">أدخل قيمة</string>
+    <string name="error_message">خطأ</string>
+
+    <string name="title_activity_digital_storage">التخزين الرقمي</string>
+    <string name="bit">بت</string>
+    <string name="Byte">بايت</string>
+    <string name="kilo">كيلوبايت</string>
+    <string name="mega">ميجابايت</string>
+    <string name="giga">جيجابايت</string>
+    <string name="tera">تيرابايت</string>
+    <string name="peta">بيتابايت</string>
+    <string name="exa">إكسابايت</string>
+    <string name="zeta">زيتابايت</string>
+
+    <string name="title_activity_time">الوقت</string>
+    <string name="microsecond">ميكرو ثانية</string>
+    <string name="nano">نانو ثانية</string>
+    <string name="milli">مللي ثانية</string>
+    <string name="second">ثانية</string>
+    <string name="minute">دقيقة</string>
+    <string name="hour">ساعة</string>
+    <string name="day">يوم</string>
+    <string name="week">أسبوع</string>
+    <string name="month">شهر</string>
+    <string name="year">سنة</string>
+    <string name="century">قرن</string>
+
+    <string name="title_activity_temperature">الحرارة</string>
+    <string name="celsius">درجة مئوية</string>
+    <string name="kelvin">كلفن</string>
+    <string name="fahrenheit">فهرنهايت</string>
+
+    <string name="title_activity_length">المسافة</string>
+    <string name="nanometre">نانومتر</string>
+    <string name="micro">ميكرومتر</string>
+    <string name="millimetre">ملليمتر</string>
+    <string name="centimetre">سنتيمتر</string>
+    <string name="metre">متر</string>
+    <string name="kilometre">كيلومتر</string>
+    <string name="mile">ميل بري</string>
+    <string name="nmile">ميل بحري</string>
+    <string name="inch">بوصة</string>
+    <string name="feet">قدم</string>
+    <string name="yard">ياردة</string>
+    <string name="lyear">سنة ضوئية</string>
+
+    <string name="title_activity_area">المساحة</string>
+    <string name="sqcenti">سنتيمتر مربع</string>
+    <string name="sqmetre">متر مربع</string>
+    <string name="sqkilo">كيلومتر مربع</string>
+    <string name="sqinch">بوصة مربعة</string>
+    <string name="sqfoot">قدم مربع</string>
+    <string name="sqyard">ياردة مربعة</string>
+    <string name="sqmile">ميل مربع</string>
+    <string name="acre">فدان</string>
+
+    <string name="title_activity_weight">الوزن</string>
+    <string name="gram">جرام</string>
+    <string name="kgarm">كيلوجرام</string>
+    <string name="pound">رطل</string>
+    <string name="ton">طن</string>
+
+    <string name="title_activity_volume">الحجم</string>
+    <string name="litre">لتر</string>
+    <string name="cubcm">سنتيمتر مكعب</string>
+    <string name="cubm">متر مكعب</string>
+    <string name="cubinch">بوصة مكعبة</string>
+    <string name="cubfoot">قدم مكعب</string>
+    <string name="cubyard">ياردة مكعبة</string>
+
+    <string name="categories">الأقسام</string>
+
+    <!-- SharedPref -->
+    <string name="pref_appear_label">المظهر [يتطلب إعادة التشغيل]</string>
+    <string name="pref_appear_label_light">ضوء النهار</string>
+    <string name="pref_appear_label_dark">الوضع الليلي</string>
+
+    <string name="pref_layout_label">التنسيق</string>
+    <string name="pref_layout_label_grid">شبكي 3</string>
+    <string name="pref_layout_label_grid2">شبكي 2</string>
+    <string name="pref_layout_label_linear">خطي</string>
+
+</resources>

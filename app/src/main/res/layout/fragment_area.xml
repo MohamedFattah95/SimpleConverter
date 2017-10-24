@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mohamed.simpleconverter.Fragments.AreaActivityFragment">
+
+    <android.support.v7.widget.CardView style="@style/HeaderCardView">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tvFromVal"
+                    style="@style/UnitText"
+                    android:text="@string/sqcenti" />
+
+                <TextView
+                    android:id="@+id/tvToRes"
+                    style="@style/UnitText"
+                    android:text="@string/sqmetre" />
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/etValue"
+                    style="@style/ValueEditText" />
+
+                <EditText
+                    android:id="@+id/etResult"
+                    style="@style/ResultEditText" />
+            </TableRow>
+        </TableLayout>
+    </android.support.v7.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                style="@style/UnitsCardView"
+                android:layout_marginEnd="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="8dp">
+
+                <RadioGroup
+                    android:id="@+id/rgfrom"
+                    style="@style/UnitsRadioGroup">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/from" />
+
+                    <RadioButton
+                        android:id="@+id/rbSqCent1"
+                        style="@style/UnitRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/sqcenti" />
+
+                    <RadioButton
+                        android:id="@+id/rbSqMetre1"
+                        style="@style/UnitRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sqmetre" />
+
+                    <RadioButton
+                        android:id="@+id/rbSqKilo1"
+                        style="@style/UnitRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sqkilo" />
+
+                    <RadioButton
+                        android:id="@+id/rbSqInch1"
+                        style="@style/UnitRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sqinch" />
+
+                    <RadioButton
+                        android:id="@+id/rbSqFoot1"
+                        style="@style/UnitRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sqfoot" />
+
+                    <RadioButton
+                        android:id="@+id/rbSqYard1"
+                        style="@style/UnitRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sqyard" />
+
+                    <RadioButton
+                        android:id="@+id/rbSqMile1"
+                        style="@style/UnitRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sqmile" />
+
+                    <RadioButton
+                        android:id="@+id/rbAcre1"
+                        style="@style/UnitRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/acre" />
+                </RadioGroup>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/UnitsCardView"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="4dp">
+
+                <RadioGroup
+                    android:id="@+id/rgTo"
+                    style="@style/UnitsRadioGroup">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/to" />
+
+                    <RadioButton
+                        android:id="@+id/rbSqCent2"
+                        style="@style/UnitRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sqcenti" />
+
+                    <RadioButton
+                        android:id="@+id/rbSqMetre2"
+                        style="@style/UnitRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/sqmetre" />
+
+                    <RadioButton
+                        android:id="@+id/rbSqKilo2"
+                        style="@style/UnitRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sqkilo" />
+
+                    <RadioButton
+                        android:id="@+id/rbSqInch2"
+                        style="@style/UnitRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sqinch" />
+
+                    <RadioButton
+                        android:id="@+id/rbSqFoot2"
+                        style="@style/UnitRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sqfoot" />
+
+                    <RadioButton
+                        android:id="@+id/rbSqYard2"
+                        style="@style/UnitRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sqyard" />
+
+                    <RadioButton
+                        android:id="@+id/rbSqMile2"
+                        style="@style/UnitRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sqmile" />
+
+                    <RadioButton
+                        android:id="@+id/rbAcre2"
+                        style="@style/UnitRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/acre" />
+                </RadioGroup>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

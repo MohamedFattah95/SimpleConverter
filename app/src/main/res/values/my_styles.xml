@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="HeaderCardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="UnitText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+
+    <style name="ValueEditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:hint">@string/hint</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:maxLength">15</item>
+        <item name="android:inputType">number|numberDecimal</item>
+    </style>
+
+    <style name="ResultEditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:gravity">center</item>
+        <item name="android:hint">@string/result</item>
+        <item name="android:textColor">@android:color/holo_green_light</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:enabled">false</item>
+    </style>
+
+    <style name="UnitsCardView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_weight">0.5</item>
+    </style>
+
+    <style name="UnitsRadioGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="UnitRadioButton">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>
